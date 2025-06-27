@@ -101,3 +101,19 @@ footer {
     height: 600px; /* adjust height as needed */
     border: none;
 }
+
+.wide-image {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.wide-image img {
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+}
+
