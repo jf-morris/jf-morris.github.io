@@ -77,3 +77,17 @@ footer {
     font-size: 0.9rem;
     border-top: 1px solid #444;
 }
+
+.map-container {
+    width: 100vw; /* full viewport width */
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 600px; /* adjust height as needed */
+    border: none;
+}
