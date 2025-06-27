@@ -48,6 +48,16 @@ nav a:hover {
     color: #dddddd;
 }
 
+a {
+    color: #66ccff; /* soft light blue */
+    text-decoration: underline;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #ffffff; /* pure white on hover */
+}
+
 main {
     max-width: 800px;
     margin: 2rem auto;
