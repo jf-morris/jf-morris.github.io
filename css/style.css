@@ -132,3 +132,31 @@ footer {
     margin: 1.5rem auto;
 }
 
+.container {
+  display: flex;
+  align-items: flex-start; /* aligns items at the top */
+  gap: 20px; /* space between text and image */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.description {
+  flex: 1; /* take up available space */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.figure {
+  flex-shrink: 0; /* prevent image from shrinking */
+}
+
+.figure img {
+  max-width: 400px;
+  height: auto;
+  display: block;
+  border: 1px solid #ccc;
+}
+
+
